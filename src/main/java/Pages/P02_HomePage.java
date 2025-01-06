@@ -18,9 +18,10 @@ public class P02_HomePage {
 
 
     //Methods
-    public void navigateToProducts()
+    public P03_ProductPage navigateToProducts()
     {
         driver.element().click(menListButton).click(tshirtsButton);
+        return new P03_ProductPage(driver);
 
     }
 

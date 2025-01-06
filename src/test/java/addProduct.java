@@ -1,5 +1,6 @@
 import Pages.P01_Login;
 import com.shaft.driver.SHAFT;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -13,7 +14,7 @@ public class addProduct {
     @Test
     public void AddProduct() {
         new P01_Login(driver).login(testExcel.getCellData("mail"),testExcel.getCellData("password"))
-                .navigateToProducts();
+                .navigateToProducts().addProducts();
 
 
     }
@@ -27,8 +28,8 @@ public class addProduct {
         driver.browser().navigateToURL("https://automationexercise.com/login");
     }
 
-    @AfterMethod
-    public void teatDown() {
+    @AfterClass
+    public void tearDown() {
         driver.quit();
     }
 
