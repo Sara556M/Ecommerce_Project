@@ -11,10 +11,10 @@ public class addProduct {
     SHAFT.TestData.JSON testJson;
     SHAFT.TestData.EXCEL testExcel;
 
-    @Test
+    @Test(description = "login then add products then verify")
     public void AddProduct() {
         new P01_Login(driver).login(testExcel.getCellData("mail"),testExcel.getCellData("password"))
-                .navigateToProducts().addProducts();
+                .navigateToProducts().addProducts().viewCart();
 
 
     }

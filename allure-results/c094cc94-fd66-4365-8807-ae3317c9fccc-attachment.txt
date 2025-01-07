@@ -1,0 +1,26 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                      Test Method: 'addProduct.AddProduct'                                                      
+                                             Test Description: 'login then add products then verify'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "Email Address" @07-01-2025 23:39:40.0228 PM
+[ReportManager] Type "Password" @07-01-2025 23:39:40.0441 PM
+[ReportManager] Click "Login" @07-01-2025 23:39:43.0212 PM
+[ReportManager] Click " MEN" @07-01-2025 23:39:43.0381 PM
+[ReportManager] Click "TSHIRTS" @07-01-2025 23:39:44.0752 PM
+[ReportManager] Get Text from "Rs. 400", text is "Rs. 400". @07-01-2025 23:39:45.0734 PM
+[ReportManager] Click " Add to cart" @07-01-2025 23:39:45.0806 PM
+[ReportManager] Click "By.xpath: //button[@data-dismiss="modal"]" @07-01-2025 23:39:46.0095 PM
+[ReportManager] Get Text from "Rs. 1299", text is "Rs. 1299". @07-01-2025 23:39:46.0185 PM
+[ReportManager] Get Text from "Rs. 1000", text is "Rs. 1000". @07-01-2025 23:39:46.0300 PM
+[ReportManager] Get Text from "Rs. 1500", text is "Rs. 1500". @07-01-2025 23:39:46.0394 PM
+[ReportManager] Get Text from "Rs. 850", text is "Rs. 850". @07-01-2025 23:39:46.0450 PM
+[ReportManager] Click " Add to cart" @07-01-2025 23:39:46.0514 PM
+[ReportManager] Click "Continue Shopping" @07-01-2025 23:39:46.0929 PM
+[ReportManager] Get Text from "Rs. 1389", text is "Rs. 1389". @07-01-2025 23:39:46.0991 PM
+[ReportManager] Scroll to element " Cart". @07-01-2025 23:39:47.0075 PM
+[ReportManager] Click " Cart" @07-01-2025 23:39:48.0200 PM
+[ReportManager] Capture full screenshot @07-01-2025 23:39:48.0843 PM
+[ReportManager] Successfully created attachment 'Screenshot - captureScreenshot_23-39-48-843_07012025' @07-01-2025 23:39:48.0843 PM

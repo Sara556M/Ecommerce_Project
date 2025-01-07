@@ -1,0 +1,14 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @07-01-2025 23:39:32.0295 PM
+[ReportManager] Setting "screenshotParams_scalingFactor" property with "1.25". @07-01-2025 23:39:32.0628 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\sarar\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @07-01-2025 23:39:33.0178 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @07-01-2025 23:39:33.0180 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @07-01-2025 23:39:33.0180 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @07-01-2025 23:39:36.0213 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/testData.json". @07-01-2025 23:39:36.0229 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @07-01-2025 23:39:36.0231 PM
+[ReportManager] Reading test data from the following file [src/test/resources/testDataFiles/testData.xlsx]. @07-01-2025 23:39:37.0608 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/testData.xlsx". @07-01-2025 23:39:37.0610 PM
+[ReportManager] Successfully created attachment 'Test Data - Excel' @07-01-2025 23:39:37.0610 PM
+[ReportManager] Target URL: "https://automationexercise.com/login" @07-01-2025 23:39:37.0631 PM
+[ReportManager] Initial URL: "about:blank" @07-01-2025 23:39:37.0659 PM
+[ReportManager] Navigate to url "https://automationexercise.com/login". @07-01-2025 23:39:39.0955 PM
